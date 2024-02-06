@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cn.madcoder.one</groupId>
+    <artifactId>one</artifactId>
+    <packaging>pom</packaging>
+    <version>${revision}</version>
+    <modules>
+        <module>one-dependencies</module>
+        <module>one-module-system</module>
+        <module>one-framework</module>
+        <module>one-module-infra</module>
+        <module>one-module-infra/one-module-infra-biz</module>
+    </modules>
+
+    <properties>
+        <revision>1.0-SNAPSHOT</revision>
+    </properties>
+
+    <name>${project.artifactId}</name>
+    <description>one项目基础脚手架</description>
+    <url>https://gitee.com/yeyeyeee/one</url>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>cn.madcoder.one</groupId>
+                <artifactId>one-dependencies</artifactId>
+                <version>${revision}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>

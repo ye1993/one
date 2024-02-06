@@ -1,0 +1,3 @@
+cn.madcoder.one.framework.security.config.OneSecurityAutoConfiguration
+cn.madcoder.one.framework.security.config.OneSecurityRpcAutoConfiguration
+cn.madcoder.one.framework.security.config.OneWebSecurityConfigurerAdapter

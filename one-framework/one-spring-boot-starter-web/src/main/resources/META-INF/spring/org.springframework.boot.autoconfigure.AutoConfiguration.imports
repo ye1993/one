@@ -1,0 +1,4 @@
+cn.madcoder.one.framework.web.config.OneWebAutoConfiguration
+cn.madcoder.one.framework.jackson.config.OneJacksonAutoConfiguration
+cn.madcoder.one.framework.apilog.config.OneApiLogAutoConfiguration
+cn.madcoder.one.framework.apilog.config.OneApiLogRpcAutoConfiguration

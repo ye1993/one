@@ -1,0 +1,2 @@
+cn.madcoder.one.framework.datasource.config.OneDataSourceAutoConfiguration
+cn.madcoder.one.framework.mybatis.config.OneMybatisAutoConfiguration

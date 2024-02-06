@@ -1,0 +1,2 @@
+cn.madcoder.one.framework.redis.config.OneRedisAutoConfiguration
+cn.madcoder.one.framework.redis.config.OneCacheAutoConfiguration
